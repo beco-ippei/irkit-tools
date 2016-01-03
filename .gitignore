@@ -1,0 +1,4 @@
+/_bk
+/data/*
+!/data/on.json
+!/data/off.json
