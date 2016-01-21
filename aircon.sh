@@ -15,5 +15,5 @@ data=`cat data/${sw}.json`
 
 api=https://api.getirkit.com/1/messages
 
-curl -i "$api" -d "${key}" -d "${device}" -d "message=${data}"
+curl -si "$api" -d "${key}" -d "${device}" -d "message=${data}"
 
